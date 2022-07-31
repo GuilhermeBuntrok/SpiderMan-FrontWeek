@@ -4,11 +4,12 @@
 
   padding: 36px 16px;
   overflow: none;
-  height: 85vh;
+  height: 80vh;
 
   display: flex;
   flex-direction: row;
   align-items: center;
+
 
   @include responsive() {
     flex-direction: column;
@@ -19,7 +20,6 @@
 
 .container-item-1 {
   max-width: 576px;
-
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -41,6 +41,7 @@
 .spiderman {
   width: 120%;
   transform: translate3d(-170px, 0, 0);
+
 
   @include responsive() {
     width: 100%;
